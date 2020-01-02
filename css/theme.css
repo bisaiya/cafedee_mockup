@@ -7234,6 +7234,12 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important; }
 
+.filter {
+  width:100%;
+  margin: 0 auto;
+}
+
+
 @media print {
   *,
   *::before,

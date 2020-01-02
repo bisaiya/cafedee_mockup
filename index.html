@@ -26,7 +26,7 @@
             <div class="container px-0">
                 <a class="navbar-brand text-dark" href="index.html">
                     <!-- LOGO -->
-                    <svg width = '150' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                    <svg width='150' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 246.8 86.6"
                         style="enable-background:new 0 0 246.8 86.6;" xml:space="preserve">
                         <style type="text/css">
@@ -92,6 +92,7 @@
             </div>
         </nav>
         <!-- End Navbar -->
+
         <!-- Header -->
         <div id="header-carousel" class="carousel slide mt-3" data-ride="carousel">
             <div class="carousel-inner">
@@ -115,15 +116,20 @@
             </a>
         </div>
         <!-- Header -->
+
         <!-- Filter -->
-        <div class="row mt-3 d-flex justify-content-end">
-            <div class="col-sm-3">
+        <div class="filter row mt-3 d-flex justify-content-end">
+            <div class="col-12 col-lg-3 px-0">
                 <input id='myInput' type="text" class="form-control" placeholder=""
                     style="font-family:Roboto, FontAwesome" onfocus="this.value=''">
             </div>
-            <div class="col-sm-1">
+            <div class="col-12 col-lg-1">
+                <input class="btn btn-outline-primary btn-search"
+                    onclick="document.getElementById('myInput').value = ''" type="reset" value="Tìm kiếm">
+            </div>
+            <div class="col-12 col-lg-1">
                 <input class="btn btn-outline-primary btn-refresh"
-                    onclick="document.getElementById('myInput').value = ''" type="reset" value="Reset">
+                    onclick="document.getElementById('myInput').value = ''" type="reset" value="Đặt lại">
             </div>
         </div>
         <div class="row mt-3">
@@ -212,6 +218,7 @@
             </div>
         </div>
         <!-- Filter -->
+
         <!-- Featured -->
         <div class="pt-4">
             <div class="container">
@@ -367,6 +374,7 @@
             </div>
         </div>
         <!-- Featured -->
+
         <!-- Suggestion -->
         <div class="pt-4">
             <div class="container">
@@ -533,6 +541,7 @@
             </div>
         </div>
         <!-- Suggestion -->
+
         <!-- Footer -->
         <hr class="full-width footer-hr">
         <footer class="page-footer font-small pt-4">
