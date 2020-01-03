@@ -9,8 +9,12 @@ html {
   height: 10em; 
   object-fit: cover;
 }
-#header-carousel img {
+#header-carousel-index img {
   height: 20em;
+  object-fit: cover;
+}
+#header-carousel img {
+  height: 30em;
   object-fit: cover;
 }
 #featured-coffeeshop .carousel {
